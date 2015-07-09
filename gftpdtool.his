@@ -1,0 +1,71 @@
+
+        .----------------------------------------.
+        | GFTPDTOOL (c) Snake Man, PMC 1999-2015 |
+        `----------------------------------------'
+
+    History of gftpdtool
+   ----------------------
+  + added feature,  - general comment,  * bugfix
+
+
+05-28-00: / v0.2b r4
+==================
+    * some variables were totally wrong :) fixed.
+    + grouptop !! including highscores; gpal, gpwk & gpm.
+    * php3 support kind of bugged, fixed. probably still broken...
+    * database monthtop was missing (wtf!), fixed.
+    + alltime restarts added.
+
+
+05-21-00: / v0.2b r1
+==================
+    + database for weektop / monthtop statistics. very buggy...
+    + yeartop initialization routine, use with "/yeartop" parameter.
+    + php3 support ;) php datafile creation, so you can easily read with php.
+    * weektop end check did not work, fixed.
+
+
+10-18-99: / v0.1br7
+==================
+    - changed kilobytes to bytes. this is the right thing to do.
+
+
+10-17-99: / v0.1br6 
+==================
+    * user date check, if logged this week fixed. Thanks to flower!
+    + configuration file. top-xx amount of users listed in the top's.
+    + it reads now the /.ftp-data/users for the user files.
+
+
+
+10-09-99: / v0.1br4 INTERNAL beta test
+==================
+    * gftpdtool.dat file works. added fprintf writings.
+    * initializing some unsigned longs were missing.
+    * datafile file was closed too early.
+    + tops.example.alup, tops.example.wkup etc footers added, here you can
+      insert your totally configurable highscore etc weekly uploads stats.
+    + tops.example.alup.middle etc is the basic line how users are shown in 
+      the tops, word here is totally configurable.
+    * weektop and monthtop date checking enabled, now users are checked for
+      the last date-on if they really have done any transfers this wkup/mup.
+    
+
+10-04-99: / v0.1br3
+==================
+    - battling the datafile "every other run" bug. geesh...
+
+
+10-02-99: / v0.1br2
+==================
+    + added 100000000 -> 100.000.000 formatting.
+    
+
+09-30-99: / v0.1br1
+==================
+    + lot of fucking stuff. gimi got me inspired ;)
+
+
+08-??-1999 / v0.0
+==================
+    ! Project initiated.

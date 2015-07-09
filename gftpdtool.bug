@@ -1,0 +1,25 @@
+    
+    its a bug hunt...
+
+- highscore database: if user is nuked, week/month tops will drop but the
+  database entry for highscore (if done that time) will remain. not too big of 
+  a bug... but still if people dont re-upload over the old entry, there is kind 
+  of false record. err. ;)
+
+- database.dat yeah well, if there is less than 10 users in the top... it will
+  write shit there, it'll fuck up ;)
+
+- group checking routine "while (gx < 10)" will bug if user DONT HAVE GROUP!
+  this is not actual bug, if your user dont have a group, why the fuck you
+  have him as user in the first place, at least put him on freaking IND !
+ 
+- php database write fucks up if top selection != 10. not excatly a bug...
+
+- == simply a bug
+* == done but not verified!
+
+
+TODO
+- lastwk: USER / TOTAL
+- yeartop: working on it... (at the moment only effective on 1st run).
+- first run, make gftpdtool.dat file.

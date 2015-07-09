@@ -1,0 +1,57 @@
+May 18th, 2000.
+
+        .----------------------------------------.
+        | GFTPDTOOL (c) Snake Man, PMC 1999-2015 |
+        `----------------------------------------'
+
+                gftpdtool.cfg configuration file
+		 
+gftpdtool.cfg file, first line is where to create top files, later lines are
+the maximum number of users to list in the various tops. pretty easy setup.
+
+
+                example/ directory
+		 
+what is the example dir? here you can find files like tops.example.alup and
+tops.example.alup.middle etc, the first file is footer for the alltime stat
+and the .middle file is the actual line of how the users are shown.
+
+
+		gftpdtool.dat datafile
+		 
+what is gftpdtool.dat file?  this file contains the HIGHSCORE records, its
+plain text file and contains some sort of explanation of the record positions
+in the lower part of the file. You dont need to bother about this file.
+
+
+		parameters
+		
+the tool takes two parameters, one initializes the yeartop and the other is
+used to add information to weektop/monthtop database. they are:
+       .------------------------------------.
+       |  /yeartop = yeartop initilization  |
+       |  /wkuptop = week/monthtop addings  |
+       `------------------------------------'     		
+of course you only need to use the yeartop once a year (Jan 1st hmm?) but it
+can be the date you start to run this tool if you do not follow the newyear.
+weektop parameter should be used saturday night approx 23:58, BEFORE 00:00.
+
+
+		using the gftpdtool
+		 		    
+using the program is simple, just run ./gftpdtool and you're all set. if all
+works okay like they should, it generates files that match directly the files
+that Jonni's excellent daemon uses. these are like tops.alltime.up for alltime
+upload top and tops.monthly.up for this monts best uploaders top. Simple.
+    
+
+  		 summary or something
+
+this is it, if you have any questions please contact me on irc at #PMC under
+the nick Snake_Man, or send me email to snakeman@phnet.fi and also check our
+web pages for any details at www.nekromantix.com/pmc 
+thanks for reading this sucky document file all the way down here :)
+
+
+    PMC -fuck the police!
+    Snake Man, PMC.

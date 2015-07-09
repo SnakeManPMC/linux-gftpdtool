@@ -1,0 +1,17 @@
+*.[oa]
+*~
+*.zip
+*.gz
+*.dat
+example/
+getcomp
+gftpdtool
+log
+web-who
+misc/
+release/
+tops/
+yearcomp/
+group.base
+php3/tops.*
+runtool.sh
